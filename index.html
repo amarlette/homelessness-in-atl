@@ -35,7 +35,7 @@
                     <p>During one of those nights volunteers take to the streets to collect data on who makes up the homeless population in Atlanta</p>
                 </div>
                 <div class="col-md-5 col-lg-4 offset-lg-0 offset-xl-0 d-none d-lg-block phone-holder">
-                    <div><img class="float-none device" src="assets/img/SleepingHomeslessperson.svg" style="width: 332px;height: 198px;"></div>
+                    <div class="iphone-mockup"><img class="float-none device" src="assets/img/SleepingHomeslessperson.svg" style="width: 332px;height: 198px;"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,7 @@
                         in Atlanta.&nbsp;In Atlanta, coordination and resources are spread across many different groups: faith community, nonprofits, shelters, medical facilities, public safety, philanthropic efforts, the City of Atlanta, improvement
                         districts and other organizations.<br></p>
                 </div>
-                <div class="col text-center" style="padding-top: 19px;"><img src="assets/img/AtlantavHomelessDonut.svg" style="width: 600px;"></div>
-                <object type="image/svg+xml" data="assets/img/AtlantavHomelessDonut.svg"></object>
+                <div class="col text-center" style="padding-top: 19px;"><img src="assets/img/Atlanta%20v%20Homeless%20Donut.svg" style="width: 358px;"></div>
             </div>
         </div>
     </section>
@@ -76,8 +75,8 @@
         <div class="container">
             <h2 class="text-center" style="color: #000;padding-top: 5px;padding-bottom: 5px;font-size: 45px;background-color: #babeea;margin-bottom: 40px;">Veterans</h2>
             <div class="row">
-                <div class="col"><img src="assets/img/veteransgraph.svg"></div>
-                <div class="col-xl-5">
+                <div class="col"><img src="assets/img/Artboard%202.svg"></div>
+                <div class="col-md">
                     <p class="text-center" style="font-size: 24px;margin-top: 0px;"><strong>2 in 10 Veterans experience homelessness in Atlanta</strong></p><img src="assets/img/vetpeople.svg" style="margin-top: 30px;"></div>
             </div>
             <p class="text-left" style="font-size: 20px;margin-top: 20px;">While there has been a decrease in the amount of seltered and unshelted veterans there has also been a decrease in the services that support veterans possiable opening the city up to more homeless veterans losing their support networks.<br></p>
@@ -92,28 +91,24 @@
 
 <head>
     <title>Resource Map</title>
-    <div class="row">
-        <div class="col-sm"></div>
-        <div class="col-sm">
-            <script type="text/javascript" 
-                src="https://public.tableau.com/javascripts/api/tableau-2.js"></script>
-            <script type="text/javascript">
-                function initViz() {
-                    var containerDiv = document.getElementById("vizContainer"),
-                        url = "https://public.tableau.com/shared/PXQCMKB8B?:display_count=y&:origin=viz_share_link",
-                        options = {
-                            hideTabs: true,
-                            onFirstInteractive: function () {
-                                console.log("Run this code when the viz has finished loading.");
-                            }
-                        };
-                    
-                    var viz = new tableau.Viz(containerDiv, url, options); 
+    
+    <script type="text/javascript" 
+	    src="https://public.tableau.com/javascripts/api/tableau-2.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "https://public.tableau.com/shared/PXQCMKB8B?:display_count=y&:origin=viz_share_link",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+            
+            var viz = new tableau.Viz(containerDiv, url, options); 
 
-                }
-            </script>
-        </div>
-    </div>
+        }
+    </script>
 </head>
 
 <body onload="initViz();">
