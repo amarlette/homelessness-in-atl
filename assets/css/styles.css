@@ -6,6 +6,10 @@
   color: #FFFFFF;
 }
 
+html {
+  scroll-behavior: smooth;
+  }
+
 h1 {
   font-family: amplitude,sans-serif;
   font-weight: 700;
