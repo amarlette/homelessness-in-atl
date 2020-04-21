@@ -1,0 +1,32 @@
+#box-stuff {
+  -webkit-box-shadow: -20px -15px 0px 1px rgba(186,190,234,1);
+  -moz-box-shadow: -20px -15px 0px 1px rgba(186,190,234,1);
+  box-shadow: -20px -15px 0px 1px rgba(186,190,234,1);
+  background-color: #484C7F;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: amplitude,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: amplitude,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: amplitude,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
